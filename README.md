@@ -3,8 +3,9 @@
 ## 1. Instalar Git 
 
 ## 2. git config  
-Lo primero que deberías hacer cuando instalas Git es establecer tu nombre de usuario y dirección de correo electrónico. Esto es importante porque las confirmaciones de cambios (commits) en Git usan esta información, y es introducida de manera inmutable en los commits que envías  
-**git config —-global**  
+Lo primero que deberías hacer cuando instalas Git es establecer tu nombre de usuario y dirección de correo electrónico. Esto es importante porque las confirmaciones de cambios (commits) en Git usan esta información, y es introducida de manera inmutable en los commits que envías   
+**git config --global user.name "Git Analisis UdeA"**  
+**git config --global user.email git-analisis@udea.edu.com**  
 
 ## 3. Abre tu github  
 En tu cuenta de github crea un nuevo repositorio  
