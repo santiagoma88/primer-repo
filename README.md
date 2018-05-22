@@ -4,9 +4,9 @@
 mkdir /practicando
 ## 2. Crear archivos a modificar
 
-echo "yo <Nombre Estudiante> estoy practicando git" >> practicando/estudiante.txt
-echo "me encuentro en el lis en clase de Analisis " >> practicando/clase.txt
-echo "## y me doy cuenta que Git no es genial" >> README.md
+echo "yo <Nombre Estudiante> estoy practicando git" >> practicando/estudiante.txt  
+echo "me encuentro en el lis en clase de Analisis " >> practicando/clase.txt  
+echo "## y me doy cuenta que Git no es genial" >> README.md  
 
 ## 3. git status
 **git status** - Verificamos stado del repositorio y posibles cambios en él.
