@@ -1,31 +1,20 @@
 # Investigacion GIT
 
-## 1. Crear carpeta dentro del nuevo proyecto 
-mkdir /practicando
-## 2. Crear archivos a modificar
+## 1. git commit 
+**git commit -m “Agregar carpeta practicando”** - Para guardar los cambios junto con un mensaje relacionado a lo guardado  
 
-echo "yo <Nombre Estudiante> estoy practicando git" >> practicando/estudiante.txt
-echo "me encuentro en el lis en clase de Analisis " >> practicando/clase.txt
-echo "## y me doy cuenta que Git no es genial" >> README.md
+## 2. git help
+**git help** - Solicitar ayuda para conocer mas detalles y comandos de git
 
-## 3. git status
-**git status** - Verificamos stado del repositorio y posibles cambios en él.
+## 3. git branch
+**git branch practicando** — Crear una nueva rama para alojar los nuevos cambios y no mezclarlos con la rama master
 
-## 4. git diff
+## 4. git checkout
+**git checkout practicando**  — Con Checkout adicional puedo cambiarme entre ramas especificando el nombre de ella
 
-**git diff** - Ver los cambios realizados en los archivos
-
-## 5. git add 
-**git add README.md** - Seleccionamos los archivos a guardar.
-**git add practicando**
-
-**git status** - Verificamos estados y comprobamos que estamos guardando.
-
-##  6. git reset HEAD
-**git reset HEAD README.md** - Si vemos que hay un archivo que guardamos por error, podemos devolverlo y evitar que sea guardado.
-
-## 7. git checkout
-**git checkout  README.md** - Para borrar los cambios realizados en un archivo y dejarlo sin modificar.
+## 5. git push 
+**git push origin practicando**  — subo los cambios a la nueva rama
 
 
-##Una vez cumplas con estos pasos podras seguir al siguiente [ejercicio](https://github.com/estebanrestrepo07/primer-repo/tree/2) 
+
+##Una vez cumplas con estos pasos podras seguir al siguiente [Ejercicio 3](https://github.com/estebanrestrepo07/primer-repo/tree/3) 
