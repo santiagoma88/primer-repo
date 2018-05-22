@@ -1,24 +1,31 @@
 # Investigacion GIT
 
-## 1. Instalar Git 
+## 1. Crear carpeta dentro del nuevo proyecto 
+mkdir /practicando
+## 2. Crear archivos a modificar
 
-## 2. git config
-Lo primero que deberías hacer cuando instalas Git es establecer tu nombre de usuario y dirección de correo electrónico. Esto es importante porque las confirmaciones de cambios (commits) en Git usan esta información, y es introducida de manera inmutable en los commits que envías
-**git config —-global**
+echo "yo <Nombre Estudiante> estoy practicando git" >> practicando/estudiante.txt
+echo "me encuentro en el lis en clase de Analisis " >> practicando/clase.txt
+echo "## y me doy cuenta que Git no es genial" >> README.md
 
-## 3. Abre tu github
-En tu cuenta de github crea un nuevo repositorio
-## Aqui puede crear el [nuevo repositorio](https://github.com/new)
+## 3. git status
+**git status** - Verificamos stado del repositorio y posibles cambios en él.
 
-## 4. comandos para crear repositorio local
+## 4. git diff
 
-**mkdir repositorio** crear carpeta para alojar repositorio
-**cd repositorio** ingresar al repositorio
-**git init **
-**echo “ INICIANDO EN GIT “ >> README.md ** — crear un archivo readme
-**git add README.md ** - para especificar los archivos que se desean guardar
-**git commit -m "primer commit en git"** - para confirmar los cambios y especificando mensaje de relacion
-**git remote add origin https://github.com/<usuario-github>/<nombre-del-repo>.git **
-**git push origin master**
+**git diff** - Ver los cambios realizados en los archivos
 
-##Una vez cumplas con estos pasos podras seguir al siguiente [ejercicio](https://github.com/estebanrestrepo07/primer-repo/tree/1) 
+## 5. git add 
+**git add README.md** - Seleccionamos los archivos a guardar.
+**git add practicando**
+
+**git status** - Verificamos estados y comprobamos que estamos guardando.
+
+##  6. git reset HEAD
+**git reset HEAD README.md** - Si vemos que hay un archivo que guardamos por error, podemos devolverlo y evitar que sea guardado.
+
+## 7. git checkout
+**git checkout  README.md** - Para borrar los cambios realizados en un archivo y dejarlo sin modificar.
+
+
+##Una vez cumplas con estos pasos podras seguir al siguiente [ejercicio](https://github.com/estebanrestrepo07/primer-repo/tree/2) 
