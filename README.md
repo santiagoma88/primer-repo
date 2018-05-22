@@ -1,20 +1,27 @@
 # Investigacion GIT
 
-## 1. git commit 
-**git commit -m “Agregar carpeta practicando”** - Para guardar los cambios junto con un mensaje relacionado a lo guardado  
+## 1. git log 
+**git log** - Evidenciar el registro de los commits realizados con su respectivo mensaje
 
-## 2. git help
-**git help** - Solicitar ayuda para conocer mas detalles y comandos de git
+## 2. git checkout -b <nombre-nuevo-branch>
+**git checkout -b analizando** — Creamos una nueva rama e ingresamos a ella directamente
 
-## 3. git branch
-**git branch practicando** — Crear una nueva rama para alojar los nuevos cambios y no mezclarlos con la rama master
+## 3. realizando cambios
+(modificar lineas anteriores, no agregar nuevas lineas para los archivos en practicando/)  
+modifica practicando/clase.txt —> “me encuentro en el lis en clase de Analisis y diseño II”   
+modifica practicando/estudiante.txt —> “yo nombre-estudiante estoy practicando git en la UdeA"
 
-## 4. git checkout
-**git checkout practicando**  — Con Checkout adicional puedo cambiarme entre ramas especificando el nombre de ella
+(agregar al final)
+agrega en el README.md —> “##Ahora si me parece genial Git”
 
-## 5. git push 
-**git push origin practicando**  — subo los cambios a la nueva rama
+## 4. git add
+**git add .** — agrega todos los cambios
+
+## 5. git commit 
+**git commit -m "modificando archivos en clase"**
+
+## 7. git push 
+**git push origin analizando** - subir cambios a la nueva rama
 
 
-
-##Una vez cumplas con estos pasos podras seguir al siguiente [Ejercicio 3](https://github.com/estebanrestrepo07/primer-repo/tree/3) 
+##Una vez cumplas con estos pasos podras seguir al siguiente [Ejercicio 3](https://github.com/estebanrestrepo07/primer-repo/tree/4) 
