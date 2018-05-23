@@ -1,7 +1,7 @@
 # Investigacion GIT
 
 ## 1. Crear carpeta dentro del nuevo proyecto 
-mkdir /practicando
+**mkdir practicando**  
 ## 2. Crear archivos a modificar
 
 echo "yo <Nombre Estudiante> estoy practicando git" >> practicando/estudiante.txt  
